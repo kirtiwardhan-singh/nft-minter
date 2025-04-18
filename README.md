@@ -48,8 +48,6 @@ git clone https://github.com/ShubhankarBanerjee87/BlockchainBootcamp2025.git
 cd BlockchainBootcamp2025
 ```
 
----
-
 ### 2. Install Dependencies
 
 ```bash
