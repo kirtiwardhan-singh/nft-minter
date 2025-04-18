@@ -46,3 +46,92 @@ This repo contains the **starter template** for the *NFT Attendance Proof Minter
 ```bash
 git clone https://github.com/ShubhankarBanerjee87/BlockchainBootcamp2025.git
 cd BlockchainBootcamp2025
+```
+
+---
+
+### 2. Install Dependencies
+
+```bash
+npm install 
+```
+
+### 3. Configure Environment
+
+```bash
+PRIVATE_KEY=your_wallet_private_key
+RPC_URL=https://polygon-mumbai.infura.io/v3/your_project_id
+```
+
+🔐 Important: Do not share your .env file publicly or commit it to version control.
+
+### 4. Compile the Contract
+
+```bash
+npx hardhat compile
+```
+
+### 5. Deploy
+
+```bash
+npx hardhat run scripts/deploy.js --network mumbai
+```
+
+---
+
+## 🧠 Your Tasks
+
+### 📄 Smart Contract (Solidity)
+
+- [ ] Complete the `mintNFT()` function in `contracts/NFTAttendance.sol`
+- [ ] Deploy the contract to **Polygon Mumbai Testnet**
+
+### 🌐 Frontend (HTML/JS)
+
+- [ ] Connect MetaMask to the frontend
+- [ ] Upload your NFT image to IPFS
+- [ ] Generate metadata and upload it to IPFS
+- [ ] Call `mintNFT()` using **Ethers.js** from the frontend
+
+---
+
+## 🌐 Tools & Links
+
+- 🔧 [Remix IDE](https://remix.ethereum.org/)
+- 🦊 [MetaMask](https://metamask.io/)
+- 🔎 [PolygonScan (Mumbai)](https://mumbai.polygonscan.com/)
+- 🖼️ [OpenSea Testnet](https://testnets.opensea.io/)
+- 📤 [Pinata](https://www.pinata.cloud/)
+- 📦 [NFT.Storage](https://nft.storage/)
+
+---
+
+## 📸 Sample Output
+
+> Once minted successfully, your NFT will appear on OpenSea Testnet like this:  
+> `https://testnets.opensea.io/assets/mumbai/<your_contract_address>/<token_id>`
+
+---
+
+## 👨‍🎓 Completion Badge
+
+Each NFT you mint is proof of:
+
+✅ Your participation in this BootCamp  
+✅ Your ability to write smart contracts  
+✅ Your confidence with full-stack Web3 development 🚀
+
+---
+
+## ✨ Credits
+
+**Organized by:** 🎯 SHARP Foundation
+
+**BootCamp Trainers:**
+
+- 👨‍🏫 **Rohit Gupta** – Smart Contracts  
+- 👨‍💻 **Shubhankar Banerjee** – Frontend + Integration
+
+---
+
+> 🚀 Happy Building, and welcome to Web3!
