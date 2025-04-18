@@ -2,7 +2,7 @@
 
 Welcome to the **Blockchain & Web3 Bootcamp NFT Project**!
 
-This repo contains the **starter template** for the *NFT Attendance Proof Minter dApp* that you'll build during the 2-day BootCamp. You'll write smart contracts, integrate frontend, and finally mint your own NFT on the **Polygon Mumbai Testnet**.
+This repo contains the **starter template** for the *NFT Attendance Proof Minter dApp* that you'll build during the 2-day BootCamp. You'll write smart contracts, integrate frontend, and finally mint your own NFT on the **Polygon Amoy Testnet**.
 
 ---
 
@@ -35,7 +35,7 @@ This repo contains the **starter template** for the *NFT Attendance Proof Minter
 - HTML, CSS, JavaScript
 - Ethers.js
 - IPFS (via Pinata or NFT.Storage)
-- Polygon Mumbai Testnet
+- Polygon Amoy Testnet
 
 ---
 
@@ -72,7 +72,7 @@ npx hardhat compile
 ### 5. Deploy
 
 ```bash
-npx hardhat run scripts/deploy.js --network mumbai
+npx hardhat run scripts/deploy.js --network amoy
 ```
 
 ---
@@ -106,8 +106,8 @@ npx hardhat run scripts/deploy.js --network mumbai
 
 ## 📸 Sample Output
 
-> Once minted successfully, your NFT will appear on OpenSea Testnet like this:  
-> `https://testnets.opensea.io/assets/mumbai/<your_contract_address>/<token_id>`
+> Once minted successfully, your NFT will appear on OpenSea Testnet like this:
+> `https://testnets.opensea.io/assets/amoy/<your_contract_address>/<token_id>`
 
 ---
 
@@ -123,7 +123,7 @@ Each NFT you mint is proof of:
 
 ## ✨ Credits
 
-**Organized by:** 🎯 SHARP Foundation
+**Organized by:** 🎯 SHARP Innovation Foundation
 
 **BootCamp Trainers:**
 
