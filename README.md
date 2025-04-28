@@ -44,8 +44,8 @@ This repo contains the **starter template** for the *NFT Attendance Proof Minter
 ### 1. Clone the repo
 
 ```bash
-git clone https://github.com/ShubhankarBanerjee87/BlockchainBootcamp2025.git
-cd BlockchainBootcamp2025
+git clone https://github.com/kirtiwardhan-singh/nft-minter.git
+cd nft-minter
 ```
 
 ### 2. Install Dependencies
