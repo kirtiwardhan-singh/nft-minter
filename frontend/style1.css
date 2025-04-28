@@ -1,0 +1,161 @@
+/* style.css */
+
+body {
+    background: #0d0d0d;
+    color: #f0f0f0;
+    font-family: 'Press Start 2P', cursive; /* Pixel-style font */
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    padding: 20px;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+  
+  .logo-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .responsive-logo {
+    width: 100px;
+    height: auto;
+  }
+  
+  .connect-wallet-btn {
+    background-color: #ffcc00;
+    border: 4px solid #000;
+    color: #000;
+    font-size: 14px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-family: 'Press Start 2P', cursive;
+    box-shadow: 4px 4px #000;
+    transition: transform 0.2s;
+  }
+  
+  .connect-wallet-btn:hover {
+    transform: scale(1.05);
+  }
+  
+  h1 {
+    font-size: 24px;
+    color: #ff0066;
+    margin-bottom: 30px;
+    text-shadow: 2px 2px #000;
+  }
+  
+  .minter-form {
+    background: #1a1a1a;
+    border: 4px solid #ffcc00;
+    padding: 20px;
+    display: inline-block;
+    text-align: left;
+    box-shadow: 8px 8px #000;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+    margin-right:20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 12px;
+  }
+  
+  input[type="text"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 12px;
+    background: #333;
+    color: #fff;
+    border: 2px solid #ffcc00;
+  }
+  
+  textarea {
+    height: 100px;
+  }
+  
+  .image-upload-container {
+    text-align: center;
+  }
+  
+  .image-preview img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 10px;
+    border: 2px dashed #ffcc00;
+    background: #222;
+  }
+  
+  .file-upload {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #ff0066;
+    color: #fff;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 12px;
+    border: 2px solid #000;
+    cursor: pointer;
+    text-align: center;
+    box-shadow: 4px 4px #000;
+  }
+  
+  .file-upload:hover {
+    background: #cc0055;
+  }
+  
+  .mint-btn {
+    background: #00cc66;
+    color: #000;
+    padding: 15px 30px;
+    border: 4px solid #000;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 14px;
+    cursor: pointer;
+    box-shadow: 6px 6px #000;
+    margin-top: 20px;
+  }
+  
+  .mint-btn:hover {
+    background: #00aa55;
+  }
+  
+  .footer {
+    margin-top: 50px;
+    font-size: 10px;
+    color: #888;
+  }
+  
+  .footer-logos {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .footer-logo {
+    background: #222;
+    padding: 10px;
+    border: 2px solid #ffcc00;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 10px;
+    box-shadow: 4px 4px #000;
+  }
+  
+  /* Load pixel font */
+  @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+  
